@@ -1,11 +1,7 @@
 {
   "docs": {
     "Getting Started": ["requirements", "installation", "directorystructure"],
-    "Controllers": ["doc2"],
-    "Routes": ["doc3"],
-    "Email": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Backend Guide": ["controllers"],
+    "FrontEnd Guide": ["doc3"]
   }
 }
