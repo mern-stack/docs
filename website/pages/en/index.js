@@ -37,8 +37,8 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = () => (
       <h2 className="projectTitle">
-        {siteConfig.title}
-        <small>{siteConfig.tagline}</small>
+        Mern Starter
+        <small>A perfect starting point for MERN projects</small>
       </h2>
     );
 
@@ -65,8 +65,8 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="https://github.com/mern-stack/mern">Github</Button>
-            {/* <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
+            <Button href={docUrl("requirements.html")}>Documentation</Button>
+            {/* <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
           </PromoSection>
         </div>
       </SplashContainer>
@@ -147,16 +147,18 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: "This is the content of my feature",
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: `Structure of this Project is inspired from Laravel-Most Popular PHP Framework.
+               This Project Follows MVC structure, and Front end is completely sperated from backend`,
+            // image: `${baseUrl}img/docusaurus.svg`,
             imageAlign: "top",
-            title: "Feature One"
+            title: "Laravel Like Structure"
           },
           {
-            content: "The content of my second feature",
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: `There is a CLI tool for making Life easier for developers, like generating controllers, making
+            models and migrations is just a command apart.`,
+            // image: `${baseUrl}img/docusaurus.svg`,
             imageAlign: "top",
-            title: "Feature Two"
+            title: "Powerful CLI"
           }
         ]}
       </Block>
@@ -196,11 +198,11 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+          {/* <FeatureCallout />
           <LearnHow />
           <TryOut />
           <Description />
-          <Showcase />
+          <Showcase /> */}
         </div>
       </div>
     );
