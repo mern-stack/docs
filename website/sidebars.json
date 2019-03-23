@@ -1,7 +1,7 @@
 {
   "docs": {
     "Getting Started": ["requirements", "installation", "directorystructure"],
-    "Backend Guide": ["controllers"],
+    "Backend Guide": ["controllers","models","email"],
     "FrontEnd Guide": ["doc3"]
   }
 }
