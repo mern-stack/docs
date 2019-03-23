@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Getting Started": ["requirements", "installation"],
+    "Getting Started": ["requirements", "installation", "directorystructure"],
     "Controllers": ["doc2"],
     "Routes": ["doc3"],
     "Email": ["doc3"]
