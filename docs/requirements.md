@@ -18,4 +18,4 @@ MongoDB should be Installed on Machine
 ```
 if not then you can install it from [Download MongoDB](https://www.mongodb.com/download-center/community)
 
-#### Thats it! And you are good to go :ear_of_rice:
+#### Thats it! And you are good to go &#127881;
