@@ -22,4 +22,4 @@ git clone https://github.com/mern-stack/mern.git <Your-Project-Name>
 
     *It Is recommended to generate 256 bit Key*
 
-5. Now run `npm run setup` in your terminal and we will set everything for you.
+5. Now go to root of your project and run `npm run setup` in your terminal and we will set everything for you.
